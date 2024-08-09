@@ -37,62 +37,39 @@
 
 1. Клонируйте репозиторий:
 
-    git clone https://github.com/Animatrees/testpet.git
-    cd testpet
+    git clone https://github.com/morozov831/sitewomen.git
+    cd sitewomen
 
 2. Создайте и активируйте виртуальное окружение:
 
     python -m venv venv
-    source venv/bin/activate  # Для Unix или MacOS
-    # или
+    source venv/bin/activate  # Для Unix или MacOS  
+    или  
     venv\Scripts\activate  # Для Windows
 
-3. Создайте файл .env и установите переменные окружения:
+4. Переименуйте файл .env.example в .env и установите переменные окружения
 
-    SECRET_KEY='ваш-секретный-ключ'
-    DEBUG=True
-    DATABASE_URL='ваш-url-базы-данных'
-
-4. Установите зависимости и примените миграции:
+5. Установите зависимости и примените миграции:
 
     pip install -r requirements.txt
     python manage.py migrate
 
-5. Создайте суперпользователя:
+6. Создайте суперпользователя:
 
     python manage.py createsuperuser
 
-6. Запустите Redis:
+7. Запустите Redis:
 
     sudo service redis-server start
 
-7. Запустите сервер:
+8. Запустите сервер:
 
     python manage.py runserver
 
-8. Откройте браузер и перейдите по адресу http://localhost:8000
-
-## Как внести свой вклад
-
-Это учебный проект, но если вы хотите внести свой вклад...
-
-1. Сделайте форк репозитория
-2. Создайте новую ветку:
-
-    git checkout -b feature/УдивительнаяФункция
-
-3. Внесите изменения и зафиксируйте их:
-
-    git commit -am 'Добавлена УдивительнаяФункция'
-
-4. Отправьте ветку:
-
-    git push origin feature/УдивительнаяФункция
-
-5. Создайте новый Pull Request
+9. Откройте браузер и перейдите по адресу http://localhost:8000
 
 ## Лицензия
 Этот проект распространяется под [MIT лицензией](LICENSE.md).
 
 ## Контакты
-Если у вас есть вопросы или предложения, пожалуйста, создайте issue в этом репозитории.
+Если у вас есть какие-либо отзывы, вопросы или предложения относительно этого проекта, пишите мне в [Telegram](https://t.me/morozov_831). Буду рад помочь Вам!
