@@ -37,7 +37,7 @@
 
 1. Клонируйте репозиторий:
 
-    git clone https://github.com/morozov831/sitewomen.git
+    git clone https://github.com/morozov831/sitewomen.git  
     cd sitewomen
 
 2. Создайте и активируйте виртуальное окружение:
@@ -51,7 +51,7 @@
 
 5. Установите зависимости и примените миграции:
 
-    pip install -r requirements.txt
+    pip install -r requirements.txt  
     python manage.py migrate
 
 6. Создайте суперпользователя:
